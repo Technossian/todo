@@ -20,16 +20,16 @@ export class TestData {
         {id:1, title: "Низкий", color: "#e5e5e5"},
         {id:2, title: "Средний",color: "#85d1b2"},
         {id:3, title: "Высокий",color: "#f1828d"},
-        {id:3, title: "Мах приоритет",color: "#f1128d"},
+        {id:4, title: "Мах", color: "#f1128d"},
     ]
 
     static tasks: Task[] = [
         {
             id:1, 
             title: "lorem",
-            priority: TestData.priorities[2],
+            priority: TestData.priorities[3],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[0],
             date: new Date('2023-11-20')
         }, 
         {
@@ -37,7 +37,7 @@ export class TestData {
             title: "lorem2",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[1],
             date: new Date('2023-11-20')
         },  
         {
@@ -45,7 +45,7 @@ export class TestData {
             title: "lorem3",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[2],
             date: new Date('2023-11-20')
         },  
         {
@@ -53,15 +53,15 @@ export class TestData {
             title: "lorem4",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[3],
             date: new Date('2023-11-20')
         },  
         {
             id:5, 
             title: "lorem5",
-            priority: TestData.priorities[2],
+            priority: TestData.priorities[1],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[4],
             date: new Date('2023-11-20')
         },  
         {
@@ -69,7 +69,7 @@ export class TestData {
             title: "lorem6",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[5],
             date: new Date('2023-11-20')
         },  
         {
@@ -77,7 +77,7 @@ export class TestData {
             title: "lorem7",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[6],
             date: new Date('2023-11-20')
         },  
         {
@@ -85,7 +85,7 @@ export class TestData {
             title: "lorem8",
             priority: TestData.priorities[1],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[7],
             date: new Date('2023-11-20')
         },  
         {
@@ -93,7 +93,7 @@ export class TestData {
             title: "lorem9",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[9],
+            category: TestData.categories[8],
             date: new Date('2023-11-20')
         },  
         {
@@ -102,6 +102,14 @@ export class TestData {
             priority: TestData.priorities[2],
             completed: false,
             category: TestData.categories[9],
+            date: new Date('2023-11-20')
+        }, 
+        {
+            id:11, 
+            title: "Работа Ибать",
+            priority: TestData.priorities[3],
+            completed: false,
+            category: TestData.categories[0],
             date: new Date('2023-11-20')
         }, 
     ]
