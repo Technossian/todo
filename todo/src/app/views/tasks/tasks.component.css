@@ -1,0 +1,13 @@
+
+
+.novalue {
+    color: #454545;
+    font-style: italic;
+}
+
+.completed {
+    color: red !important;
+
+    text-decoration: line-through;
+    /* color: #797979; */
+}

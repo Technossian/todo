@@ -10,6 +10,7 @@ import { DataHandlerService } from 'src/app/service/data-handler.service';
 export class CategoriesComponent implements OnInit {
 
   categories!: Category[]
+  selectedCategory!:Category
 
   constructor(private dataHandler: DataHandlerService){}
 
@@ -17,6 +18,7 @@ export class CategoriesComponent implements OnInit {
      this.dataHandler.categoriesSubject.subscribe(categories => this.categories = categories)
   }
   showTasksByCategory(category: Category){
+    this.selectedCategory = category
     this.dataHandler.fillTasksByCategory(category)
   }
 

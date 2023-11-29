@@ -59,8 +59,7 @@ export class TestData {
         {
             id:5, 
             title: "lorem5",
-            priority: TestData.priorities[1],
-            completed: false,
+            completed: true,
             category: TestData.categories[4],
             date: new Date('2023-11-20')
         },  
@@ -70,14 +69,12 @@ export class TestData {
             priority: TestData.priorities[2],
             completed: false,
             category: TestData.categories[5],
-            date: new Date('2023-11-20')
         },  
         {
             id:7, 
             title: "lorem7",
             priority: TestData.priorities[2],
             completed: false,
-            category: TestData.categories[6],
             date: new Date('2023-11-20')
         },  
         {
@@ -108,7 +105,7 @@ export class TestData {
             id:11, 
             title: "Работа Ибать",
             priority: TestData.priorities[3],
-            completed: false,
+            completed: true,
             category: TestData.categories[0],
             date: new Date('2023-11-20')
         }, 
